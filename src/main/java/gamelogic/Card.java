@@ -96,8 +96,7 @@ public enum Card {
     SCHOENE_KOMPINATION("Schöne Kompination", "src/Cards/SchoeneKompination.png", Arrays.asList(
             new Action("Verläufts ins Nichts", Arrays.asList(1, 2, 3), new Effect(EffectTypes.Nothing)),
             new Action("Fernschuss", Arrays.asList(4), new Effect(EffectTypes.NextCard, "FERNSCHUSS")),
-            new Action("Großchance", Arrays.asList(5), new Effect(EffectTypes.NextCard, "GROSSCHANCE")),
-            new Action("Elfmeter", Arrays.asList(6), new Effect(EffectTypes.NextCard, "ELFMETER"))
+            new Action("Großchance", Arrays.asList(5, 6), new Effect(EffectTypes.NextCard, "GROSSCHANCE"))
     ), 4),
     SPIELEROEFFNUNG("Spieleröffnung", "src/Cards/Spieleroeffnung.png", Arrays.asList(
             new Action("Fehlpass", Arrays.asList(1), new Effect(EffectTypes.NextCardEnemy,"KONTER")),

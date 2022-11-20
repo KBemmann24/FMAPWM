@@ -201,7 +201,7 @@ public class FMAPController {
             }
             JFXButton button = new JFXButton();
             button.setText(action.getName() + " (" + dicesText + ")");
-            button.setStyle("-fx-background-color: #9eb09e;");
+            button.setStyle("-fx-background-color: #9eb09e; -fx-font-size: 18;");
             button.setOnAction(event -> processAction(action.getEffects(), player));
             buttons.add(button);
         }
@@ -226,7 +226,7 @@ public class FMAPController {
             for (String passiveName : playerToIterate.getSignatureNamesActive().keySet()) {
                 JFXButton button = new JFXButton();
                 button.setText(passiveName);
-                button.setStyle("-fx-background-color: #9eb09e;");
+                button.setStyle("-fx-background-color: #9eb09e; -fx-font-size: 18;");
                 if (!playerToIterate.getSignatureNamesActive().get(passiveName)) {
                     button.setDisable(true);
                 }
@@ -272,7 +272,7 @@ public class FMAPController {
             }
             JFXButton button = new JFXButton();
             button.setText(action.getName() + " (" + dicesText + ")");
-            button.setStyle("-fx-background-color: #9eb09e;");
+            button.setStyle("-fx-background-color: #9eb09e; -fx-font-size: 18;");
             button.setOnAction(event -> processAction(action.getEffects(), activePlayer));
             buttons.add(button);
         }
@@ -303,7 +303,7 @@ public class FMAPController {
             }
             JFXButton button = new JFXButton();
             button.setText(action.getName() + " (" + dicesText + ")");
-            button.setStyle("-fx-background-color: #9eb09e;");
+            button.setStyle("-fx-background-color: #9eb09e; -fx-font-size: 18;");
             button.setOnAction(event -> processAction(action.getEffects(), activePlayer, currentCard));
             buttons.add(button);
         }

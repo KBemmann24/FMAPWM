@@ -83,9 +83,9 @@
       <Label text="Spieler 1 Trainingsbonus" GridPane.halignment="CENTER" GridPane.rowIndex="8" />
       <Label text="Spieler 2 Formationsbonus" GridPane.halignment="CENTER" GridPane.rowIndex="15" />
       <Label text="Spieler 2 Trainingsbonus" GridPane.halignment="CENTER" GridPane.rowIndex="16" />
-      <TextField fx:id="player1FormationBonus" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="7" />
-      <TextField fx:id="player1TrainingBonus" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="8" />
-      <TextField fx:id="player2FormationBonus" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="15" />
-      <TextField fx:id="player2TrainingBonus" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="16" />
+      <TextField fx:id="player1FormationBonus" prefHeight="40.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="7" />
+      <TextField fx:id="player1TrainingBonus" prefHeight="40.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="8" />
+      <TextField fx:id="player2FormationBonus" prefHeight="40.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="15" />
+      <TextField fx:id="player2TrainingBonus" prefHeight="40.0" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="16" />
    </children>
 </GridPane>

@@ -15,8 +15,8 @@
 <AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ui.fmapwm.FMAPController">
       <GridPane alignment="CENTER" prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <columnConstraints>
-          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" percentWidth="35.0" />
-          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="257.0" minWidth="257.0" percentWidth="25.0" prefWidth="257.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" percentWidth="40.0" />
+          <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" maxWidth="257.0" minWidth="257.0" percentWidth="20.0" prefWidth="257.0" />
             <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" percentWidth="40.0" />
          <ColumnConstraints />
         </columnConstraints>
@@ -29,7 +29,7 @@
             <RowConstraints percentHeight="10.0" valignment="CENTER" vgrow="ALWAYS" />
         </rowConstraints>
          <children>
-            <Label fx:id="scoreLabel" text="Spielstand" GridPane.columnSpan="4" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER">
+            <Label fx:id="scoreLabel" style="-fx-font-weight: bold; -fx-font-size: 20;" text="Spielstand" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.valignment="CENTER">
                <padding>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </padding>
@@ -69,13 +69,13 @@
                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
             </opaqueInsets>
             </HBox>
-            <JFXButton alignment="CENTER" contentDisplay="CENTER" onAction="#rollDice" style="-fx-background-color: #9eb09e;" text="Würfeln" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-            <Label fx:id="aktivLabel" text="Aktiv:" GridPane.rowIndex="1" />
-            <Label fx:id="player1DeckLabel" text="Label" GridPane.rowIndex="5" />
-            <Label fx:id="player2DeckLabel" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-         <HBox fx:id="activeButtonBox" alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+            <JFXButton alignment="CENTER" contentDisplay="CENTER" onAction="#rollDice" style="-fx-background-color: #9eb09e; -fx-font-size: 18;" text="Würfeln" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Label fx:id="aktivLabel" style="-fx-font-weight: bold; -fx-font-size: 18;" text="Aktiv:" GridPane.rowIndex="1" />
+            <Label fx:id="player1DeckLabel" style="-fx-font-weight: bold; -fx-font-size: 18;" text="Label" GridPane.rowIndex="5" />
+            <Label fx:id="player2DeckLabel" style="-fx-font-weight: bold; -fx-font-size: 18;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+         <HBox fx:id="activeButtonBox" alignment="CENTER" prefHeight="150.0" prefWidth="200.0" spacing="20.0" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
             <children>
-                  <JFXButton fx:id="substituteButton" onAction="#substitute" style="-fx-background-color: #9eb09e;" text="Auswechseln" />
+                  <JFXButton fx:id="substituteButton" onAction="#substitute" style="-fx-background-color: #9eb09e; -fx-font-size: 18;" text="Auswechseln" />
             </children>
          </HBox>
          <TextArea fx:id="bonusTextArea" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
