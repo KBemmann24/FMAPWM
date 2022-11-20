@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="FMAPWM:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="609879bf-1d86-4993-b2c5-633ee299e3f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/FMAPWM_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/FMAPWM_jar/FMAPWM.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Abgefangen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Abstoß.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Auswechslung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Casillas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Cech.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/DefensiveTaktikanweisung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Diaz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Diego.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/DirekterFreistoss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Dribbling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Ecke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Elfmeter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Fernschuss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Flanke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Flottakos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Gattuso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Gegenpressing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Grosschance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/GrosschanceNachschuss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Iniesta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Inzaghi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Koller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Konter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Koulibaly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Mane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Megaschuss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/MegaschussNachschuss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Mendy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Nedved.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Nesta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/OffensiveTaktikanweisung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Papadopoulos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Papastathopoulos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/RabonaFlanke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/RainbowFlick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Raul.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Ronaldinho.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Ronaldo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/RoteKarte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Ruiz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/SchiriBeschweren.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/SchoeneKombination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/SchoeneKompination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Spieleroeffnung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Sprintduell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Steilpass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Taktikanweisung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Tigerschuss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/TikiTaka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/TorchanceNachFlanke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Verletzung.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/Wanchope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cards/ZweiteLuft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiceImages/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiceImages/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiceImages/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiceImages/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiceImages/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiceImages/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiceImages/loading.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/Brasilien/Diego Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/Brasilien/Ronaldo Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/CPU/CPU Torjubel1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/CPU/CPU Torjubel2.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/CPU/CPU Torjubel3.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/CPU/CPU Torjubel4.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/CPU/CPU Torjubel5.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/CostaRica/Diaz Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/CostaRica/Ruiz Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/CostaRica/Wanchope Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/Italien/Del Piero Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/Italien/Gattuso Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/Italien/Inzaghi Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/Senegal/Koulibaly Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/Senegal/Mane Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/Senegal/Mendy Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/Spanien/Casillas Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/Spanien/Iniesta Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/Spanien/Raul Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Videos/Goal/Tschechien/Koller Torjubel.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ui/fmapwm/FMAPApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ui/fmapwm/FMAPController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ui/fmapwm/FMAPGridPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ui/fmapwm/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gamelogic/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gamelogic/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gamelogic/Effect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gamelogic/EffectTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gamelogic/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gamelogic/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ui/fmapwm/FMAP.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ui/fmapwm/FMAPBorderPane.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/ui/fmapwm/Menu.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EZZDZGEJtmSu49HZnPOLeqGaob" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kaibe/IdeaProjects/FMAPWM/src/Videos/Goal&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="gamelogic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kaibe\IdeaProjects\FMAPWM\src\Videos\Goal" />
+      <recent name="C:\Users\kaibe\IdeaProjects\FMAPWM\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kaibe\IdeaProjects\FMAPWM\src\Videos\Goal\Costa Rica" />
+      <recent name="C:\Users\kaibe\IdeaProjects\FMAPWM\src\Videos\Goal" />
+      <recent name="C:\Users\kaibe\IdeaProjects\FMAPWM\src\Videos" />
+      <recent name="C:\Users\kaibe\IdeaProjects\FMAPWM\src\Cards" />
+      <recent name="C:\Users\kaibe\IdeaProjects\FMAPWM\src\DiceImages" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn build" />
+      <command value="mvn jar:jar" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="609879bf-1d86-4993-b2c5-633ee299e3f5" name="Changes" comment="" />
+      <created>1662804950357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662804950357</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

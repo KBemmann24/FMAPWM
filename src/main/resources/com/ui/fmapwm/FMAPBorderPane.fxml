@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ui.fmapwm.FMAPGridPane">
+   <center>
+      <VBox fx:id="middleBox" alignment="CENTER" prefHeight="320.0" prefWidth="100.0" spacing="15" style="-fx-background-color: #1fd119;" BorderPane.alignment="CENTER">
+      </VBox>
+   </center>
+   <left>
+      <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="320.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: #b5265d;">
+                     <children>
+                        <Label fx:id="aktivLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="300.0" text="Aktiv:" VBox.vgrow="ALWAYS" />
+                        <StackPane prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #3e74c9;">
+                           <children>
+                              <ImageView fx:id="cardView" fitHeight="320.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </StackPane>
+                        <HBox alignment="CENTER">
+                           <children>
+                              <JFXButton fx:id="substituteButton" alignment="CENTER" contentDisplay="CENTER" onAction="#substitute" style="-fx-background-color: #9eb09e;" text="Auswechseln" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children></Pane>
+   </left>
+   <bottom>
+      <Pane BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="630.0" spacing="20">
+               <children>
+                  <Label fx:id="player1DeckLabel" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="315.0" HBox.hgrow="ALWAYS" />
+                  <Label fx:id="player2DeckLabel" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="315.0" HBox.hgrow="ALWAYS" />
+               </children></HBox>
+         </children></Pane>
+   </bottom>
+   <right>
+      <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="320.0" prefWidth="210.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" prefHeight="320.0" prefWidth="210.0" spacing="30" style="-fx-background-color: #d1af19;">
+               <children>
+                  <StackPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="230.0" prefWidth="210.0">
+                     <children>
+                        <ImageView fx:id="diceView" fitHeight="230.0" fitWidth="210.0" pickOnBounds="true" preserveRatio="true" />
+                     </children></StackPane>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="210.0">
+                     <children>
+                        <JFXButton onAction="#rollDice" style="-fx-background-color: #9eb09e;" text="Würfeln" />
+                     </children>
+                  </HBox>
+               </children></VBox>
+         </children>
+      </Pane>
+   </right>
+   <top>
+      <StackPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="40.0" prefWidth="630.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="scoreLabel" alignment="CENTER" prefHeight="100.0" prefWidth="600.0" text="Spielstand" />
+         </children></StackPane>
+   </top>
+   <padding>
+      <Insets left="20.0" right="20.0" />
+   </padding>
+</BorderPane>
